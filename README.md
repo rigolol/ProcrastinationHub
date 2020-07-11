@@ -6,6 +6,7 @@ Games include:
 - Pong vs a CPU
 - Snake
 - Dodger: My own creation ;)
+
 All written in HTML, CSS, and JavaScript
 I am currently learning web development and JavaScript and used this as practice! For Pong and Snake I followed these tutorials but adapted them to my own style: 
 Pong: https://thoughtbot.com/blog/pong-clone-in-javascript 
