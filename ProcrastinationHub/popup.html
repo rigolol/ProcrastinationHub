@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ProcrastinationHub</title>
+
+        <style>
+            html, body {
+                font-family: 'Menlo', monospace;
+                font-size: 18px;
+                margin: 0;
+                min-height: 180px;
+                padding: 0;
+                width: 380px;
+                background-color: #f1faee;
+                color: #1d3557;
+            }
+
+            h1 {
+                font-family: 'Menlo', monospace;
+                font-size: 23px;
+                font-weight: 400;
+                margin: 0;
+                color: #1d3557;
+            }
+
+            a:link, a:visited {
+                color: #1d3557;
+                outline: 0;
+                text-decoration: none;
+            }
+
+            img {
+                width: 60px;
+            }
+
+            .modal-header {
+                align-items: center;
+                border-bottom: 0.5px solid #457b9d;
+            }
+
+            .modal-content {
+                font-family: 'Menlo', monospace;
+                padding: 0px;
+                text-align: center;
+                border-bottom: 0.5px solid #457b9d;
+            }
+
+            .logo {
+                padding: 5px;
+            }
+
+            .logo-icon {
+                vertical-align:middle;
+                margin-right: 12px;
+            }
+
+            .version {
+                color: #1d3557;
+                font-size: 10px;
+                margin: 0px;
+            }
+
+            .gameButton {
+                text-align: center;
+                font-size: 15px;
+            }
+
+            .divider{
+                color: #1d3557;
+                width: 25px;
+                height:auto;
+                display:inline-block;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div class="modal-header">
+            <h1 class="logo">
+                <img src="logo.png" class="logo-icon"> ProcrastinationHub <span class="version">(1.0.0)</span>
+            </h1>
+        </div>
+
+        <div class="modal-content">
+            <p>Play games while you procrastinate!</p>
+        </div>
+
+        <div class="gameButton">
+            <br>
+            <a href="pong.html">Pong</a>
+            <div class="divider"></div>
+            <a href="snake.html">Snake</a>
+            <div class="divider"></div>
+            <a href="dodger.html">Dodger</a>
+        </div>
+        <br>
+
+        <div class="timeTracker">
+             <script src="timeTracker.js"></script>
+        </div>
+    </body>
+</html>

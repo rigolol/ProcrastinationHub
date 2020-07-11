@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "ProcrastinationHub",
+    "description": "Play games like Pong, Snake, and Dodger while you procrastinate on your homework! \n Find source code on github! ",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "popup.html",
+        "default_title": "Procrastinate!"
+    },
+    "permissions": ["activeTab"]
+}
