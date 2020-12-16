@@ -1,4 +1,4 @@
-# ProcrastinationHub
+# Chromini Games
 Play games like Pong, Snake, and Dodger while you procrastinate on your homework!
 
 Google Chrome extension that users can click on and play a few games while they procrastinate!
